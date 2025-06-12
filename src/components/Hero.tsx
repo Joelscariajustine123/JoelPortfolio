@@ -1,7 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
-import ProfileImage from "./ProfileImage";
+import { ArrowDown, Github, Linkedin, Mail, FileText } from "lucide-react";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -13,10 +12,6 @@ const Hero = () => {
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background to-secondary/20 relative">
       <div className="container mx-auto px-4 text-center">
         <div className="animate-fade-in">
-          <div className="mb-8">
-            <ProfileImage />
-          </div>
-          
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
             Joel Scaria Justine
           </h1>
@@ -35,16 +30,40 @@ const Hero = () => {
               <Mail className="mr-2 h-4 w-4" />
               Get In Touch
             </Button>
+            <Button 
+              variant="outline" 
+              size="lg" 
+              onClick={() => window.open('https://drive.google.com/file/d/1ucC8dpB8-lCk8_aOpuZZFLfiu3WCPulK/view?usp=sharing', '_blank')}
+              className="animate-scale-in"
+            >
+              <FileText className="mr-2 h-4 w-4" />
+              View Resume
+            </Button>
           </div>
 
           <div className="flex justify-center space-x-6">
-            <Button variant="ghost" size="icon" className="hover-scale">
+            <Button 
+              variant="ghost" 
+              size="icon" 
+              className="hover-scale"
+              onClick={() => window.open('https://github.com/Joelscariajustine123', '_blank')}
+            >
               <Github className="h-5 w-5" />
             </Button>
-            <Button variant="ghost" size="icon" className="hover-scale">
+            <Button 
+              variant="ghost" 
+              size="icon" 
+              className="hover-scale"
+              onClick={() => window.open('https://www.linkedin.com/in/joel-scaria-justine-202191203/', '_blank')}
+            >
               <Linkedin className="h-5 w-5" />
             </Button>
-            <Button variant="ghost" size="icon" className="hover-scale">
+            <Button 
+              variant="ghost" 
+              size="icon" 
+              className="hover-scale"
+              onClick={() => window.open('mailto:joelscaria2020@gmail.com', '_blank')}
+            >
               <Mail className="h-5 w-5" />
             </Button>
           </div>

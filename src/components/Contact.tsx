@@ -32,14 +32,14 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "your.email@example.com",
-      link: "mailto:your.email@example.com"
+      value: "joelscaria2020@gmail.com",
+      link: "mailto:joelscaria2020@gmail.com"
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "+91 XXXXX XXXXX",
-      link: "tel:+91XXXXXXXXX"
+      value: "+91 8156982391",
+      link: "tel:+918156982391"
     },
     {
       icon: MapPin,
