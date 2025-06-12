@@ -21,8 +21,8 @@ const About = () => {
     },
     {
       icon: GraduationCap,
-      title: "Continuous Learning",
-      description: "Always exploring new technologies and best practices"
+      title: "BTech Graduate",
+      description: "Computer Science Engineering with First Class (2020-2024)"
     }
   ];
 
@@ -34,19 +34,40 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div className="space-y-6">
             <p className="text-lg leading-relaxed">
-              I'm a passionate Django developer with extensive experience in full-stack web development. 
-              My journey in technology spans across multiple domains, from building healthcare management 
-              systems to creating games and exploring cybersecurity tools.
+              I'm Joel Scaria Justine, a passionate Django developer and BTech Computer Science Engineering 
+              graduate (2020-2024) with First Class honors. My journey in technology spans across multiple 
+              domains, from building healthcare management systems to creating games and exploring cybersecurity tools.
             </p>
             <p className="text-lg leading-relaxed">
               As a faculty member at GTEC Computer Education Kannur, I share my knowledge by teaching 
-              a wide range of programming languages and technologies, helping students build their 
-              technical foundation and pursue their career goals.
+              a wide range of programming languages including HTML, CSS, JavaScript, Python, Django, Flask, 
+              Data Analysis, Machine Learning, C, C++, Java, Flutter, and WordPress.
             </p>
             <p className="text-lg leading-relaxed">
               My diverse background includes internships in Flutter development and graphic design, 
               giving me a well-rounded perspective on software development and user experience design.
             </p>
+            
+            <div className="mt-8">
+              <h3 className="text-xl font-semibold mb-4">Education</h3>
+              <div className="space-y-3">
+                <div className="flex justify-between items-center">
+                  <span className="font-medium">BTech Computer Science Engineering</span>
+                  <span className="text-sm text-muted-foreground">2020-2024</span>
+                </div>
+                <p className="text-sm text-muted-foreground">First Class</p>
+                
+                <div className="flex justify-between items-center mt-4">
+                  <span className="font-medium">Plus Two</span>
+                  <span className="text-sm text-muted-foreground">2019-2020</span>
+                </div>
+                
+                <div className="flex justify-between items-center mt-4">
+                  <span className="font-medium">SSLC</span>
+                  <span className="text-sm text-muted-foreground">2017-2018</span>
+                </div>
+              </div>
+            </div>
           </div>
           
           <div className="grid grid-cols-2 gap-4">
