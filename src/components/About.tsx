@@ -68,6 +68,23 @@ const About = () => {
                 </div>
               </div>
             </div>
+
+            <div className="mt-8">
+              <h3 className="text-xl font-semibold mb-4">Certifications</h3>
+              <div className="space-y-3">
+                <div className="flex justify-between items-center">
+                  <span className="font-medium">Cybersecurity and Ethical Hacking</span>
+                  <span className="text-sm text-muted-foreground">July-Sept 2024</span>
+                </div>
+                <p className="text-sm text-muted-foreground">Apponix Technologies, Rajajinagar, Bangalore</p>
+                
+                <div className="flex justify-between items-center mt-4">
+                  <span className="font-medium">Django Developer</span>
+                  <span className="text-sm text-muted-foreground">Aug-Nov 2024</span>
+                </div>
+                <p className="text-sm text-muted-foreground">Inmakes Learning Hub, Kochi</p>
+              </div>
+            </div>
           </div>
           
           <div className="grid grid-cols-2 gap-4">
