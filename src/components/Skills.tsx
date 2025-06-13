@@ -5,56 +5,51 @@ import { Badge } from "@/components/ui/badge";
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Backend Development",
+      title: "Languages & Frameworks",
       skills: [
-        { name: "Django", level: "Expert" },
         { name: "Python", level: "Expert" },
+        { name: "Django", level: "Expert" },
         { name: "Flask", level: "Advanced" },
-        { name: "REST APIs", level: "Advanced" },
-        { name: "Database Design", level: "Advanced" }
-      ]
-    },
-    {
-      title: "Frontend Development",
-      skills: [
-        { name: "HTML5", level: "Expert" },
-        { name: "CSS3", level: "Expert" },
-        { name: "JavaScript", level: "Advanced" },
-        { name: "Responsive Design", level: "Advanced" },
-        { name: "WordPress", level: "Intermediate" }
-      ]
-    },
-    {
-      title: "Programming Languages",
-      skills: [
         { name: "C", level: "Advanced" },
-        { name: "C++", level: "Advanced" },
-        { name: "Java", level: "Intermediate" },
-        { name: "C#", level: "Intermediate" }
+        { name: "JavaScript", level: "Advanced" },
+        { name: "HTML", level: "Expert" },
+        { name: "CSS", level: "Expert" },
+        { name: "PHP", level: "Intermediate" },
+        { name: "React", level: "Intermediate" }
       ]
     },
     {
-      title: "Mobile & Game Development",
+      title: "Databases",
       skills: [
-        { name: "Flutter", level: "Intermediate" },
-        { name: "Unity Engine", level: "Intermediate" },
-        { name: "Mobile UI/UX", level: "Intermediate" }
+        { name: "MySQL", level: "Advanced" },
+        { name: "PostgreSQL", level: "Advanced" }
       ]
     },
     {
-      title: "Data & Analytics",
+      title: "Tools & Platforms",
       skills: [
-        { name: "Data Analysis", level: "Intermediate" },
-        { name: "Machine Learning", level: "Beginner" },
-        { name: "Python Libraries", level: "Intermediate" }
-      ]
-    },
-    {
-      title: "Cybersecurity & Tools",
-      skills: [
-        { name: "Nessus", level: "Intermediate" },
+        { name: "Git", level: "Advanced" },
+        { name: "PythonAnywhere", level: "Intermediate" },
+        { name: "HostGator", level: "Intermediate" },
         { name: "Nmap", level: "Intermediate" },
-        { name: "Security Testing", level: "Intermediate" }
+        { name: "Wireshark", level: "Intermediate" },
+        { name: "Nessus", level: "Intermediate" }
+      ]
+    },
+    {
+      title: "Cybersecurity",
+      skills: [
+        { name: "Vulnerability Scanning", level: "Intermediate" },
+        { name: "Risk Assessment", level: "Intermediate" },
+        { name: "Incident Management", level: "Intermediate" }
+      ]
+    },
+    {
+      title: "Other Skills",
+      skills: [
+        { name: "WordPress", level: "Intermediate" },
+        { name: "REST APIs", level: "Advanced" },
+        { name: "Socket Programming", level: "Intermediate" }
       ]
     }
   ];
